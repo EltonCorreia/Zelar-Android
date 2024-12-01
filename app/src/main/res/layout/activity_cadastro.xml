@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F0591"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".cadastro">
+
+    <EditText
+        android:id="@+id/editNomeCliente"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Nome completo"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editEnderecoCliente"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Endereço"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editFoneCliente"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Telefone"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editEmailCliente"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editSenhaCliente"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editCodigoCadastro"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Código do cartão"
+        android:inputType="number|textPersonName"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="305dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_corner"
+        android:fontFamily="@font/kodchasanregular"
+        android:onClick="ClickSalvar"
+        android:text="Cadastrar"
+        android:textColor="#3F0591"
+        android:textSize="16sp" />
+
+</LinearLayout>

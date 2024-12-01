@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F0591"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".preencher_pontos">
+
+    <EditText
+        android:id="@+id/editData"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Data da compra"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editValor"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Valor da compra"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editNum"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/text_corner"
+        android:ems="10"
+        android:fontFamily="@font/kodchasanregular"
+        android:hint="Número do cupom"
+        android:inputType="textShortMessage|number"
+        android:padding="12dp"
+        android:textColor="#3F0591"
+        android:textColorHint="#3F0591"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="305dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_corner"
+        android:fontFamily="@font/kodchasanregular"
+        android:onClick="preencher"
+        android:text="Registrar ponto"
+        android:textColor="#3F0591" />
+
+</LinearLayout>
